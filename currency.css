@@ -1,0 +1,78 @@
+*{margin:0;padding:0;}
+body{
+    background-color:rgb(254, 250, 224);
+    background-image: url("OIP.jpg");
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.main{
+    height: 470px;
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(254, 250, 224);
+    font-size:20px;
+    margin-top: 140px;
+}
+.in{
+    height: 29px;
+    width: 330px;
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.amount{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.value{
+    height: 29px;
+    width: 330px;
+    line-height: 29px;
+    border:2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#hehe{
+    height: 50px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.all{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content:space-around;
+    gap: 40px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(62, 21, 21);
+    margin-left: 85px ;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

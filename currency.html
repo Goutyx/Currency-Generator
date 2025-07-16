@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <main>
+    <div class="main">
+        <h1>Currency Converter</h1>
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input type="text" class="in">
+            <br><br>
+            <p>Exchange Value</p>
+            <div class="value"></div>
+        </div>
+        <div class="all">
+            <div class="from">
+                <p>From</p>
+                <div id="hehe">
+                <img id="from-flag" src="https://flagsapi.com/US/flat/64.png" style="height: 50px; width: 50px;">
+                <select id="from-currency" style="border: none; font-size: 15px; font-weight: 500; background-color:rgb(254, 250, 224);"></select>
+                </div>
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div id="hehe">
+                    <img id="to-flag" src="https://flagsapi.com/IN/flat/64.png" style="height: 50px; width: 50px;">
+                    <select id="to-currency" style="border: none; font-size: 15px; font-weight: 500; background-color:rgb(254, 250, 224);"></select>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-arrow-right-arrow-left" style="margin: 35px 170px ;"></i>
+        <button id="button">Currency Exchange Rates</button>
+    </div>
+    </main>
+    <script src="currency.js"></script>
+</body>
+</html>
